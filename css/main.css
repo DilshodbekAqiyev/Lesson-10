@@ -155,14 +155,18 @@ html {
   animation: Company_Logo 6s linear 0s;
 }
 
-@keyframes Company_logo {
+.Company_logo .container marquee a {
+  margin-right: 80px;
+}
+
+/* @keyframes Company_logo {
   0% {
     transform: translateX(-150px);
   }
   100% {
     transform: translateX(1440px);
   }
-}
+} */
 
 /* services  */
 
